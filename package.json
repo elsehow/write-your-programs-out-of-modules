@@ -1,0 +1,25 @@
+{
+  "name": "building-webapps-out-of-modules",
+  "version": "1.0.0",
+  "description": "code accompanying the tutorial at http://coolworld.me/building-webapps-out-of-modules/",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify index.js -o bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elsehow/building-webapps-out-of-modules.git"
+  },
+  "keywords": [
+    "tutorial"
+  ],
+  "author": "elsehow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elsehow/building-webapps-out-of-modules/issues"
+  },
+  "homepage": "https://github.com/elsehow/building-webapps-out-of-modules#readme",
+  "dependencies": {
+    "compute-add": "^2.0.0"
+  }
+}
